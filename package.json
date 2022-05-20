@@ -1,5 +1,5 @@
 {
-  "name": "proyecto-final",
+  "name": "pasoapasodrinks-falabella10",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -12,6 +12,6 @@
   "license": "ISC",
   "devDependencies": {
     "node-sass": "^7.0.1",
-    "nodemon": "^2.0.16"
+    "nodemon": "^2.0.15"
   }
 }

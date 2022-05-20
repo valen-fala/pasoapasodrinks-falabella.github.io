@@ -1,0 +1,59 @@
+@media screen and (min-width: 1024px) {
+  .font1, .font2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 75px;
+    animation: bounceInDown;
+    animation-duration: 2s; }
+  .font2 {
+    font-size: 40px; } }
+
+@media only screen and (max-width: 320px) {
+  .font3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 35px; }
+  .font4 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 22px; } }
+
+@media screen and (min-width: 1024px) {
+  .bordesredondeados {
+    border-radius: 20%;
+    border-style: dashed;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    width: 500px;
+    height: 400px; } }
+
+@media only screen and (max-width: 320px) {
+  .bordesredondeados {
+    border-radius: 20%;
+    border-style: dashed;
+    margin-top: 1em;
+    margin-bottom: 1em; } }
+
+@media screen and (min-width: 1024px) {
+  body {
+    background-image: linear-gradient(yellow, orange, white); }
+    body footer {
+      background-image: url(/images/img.fondocervezafooter.jpg); } }
+
+@media only screen and (max-width: 320px) {
+  body {
+    background-image: linear-gradient(yellow, orange, white); } }
+
+@media screen and (min-width: 1024px) {
+  body header {
+    height: 220px; }
+  body nav {
+    margin-top: 15px;
+    margin-bottom: 15px; }
+  body footer {
+    height: 250px; }
+  body main {
+    margin-top: 10px;
+    margin-bottom: 10px; } }
+
+@media only screen and (max-width: 320px) {
+  body nav {
+    margin-top: 2px;
+    margin-bottom: 2px; } }

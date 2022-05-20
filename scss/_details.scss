@@ -1,0 +1,18 @@
+@media screen and (min-width: 1024px){
+    .bordesredondeados{
+        border-radius: 20%;
+        border-style: dashed;
+        margin-top: 1em;
+        margin-bottom: 1em;
+        width: 500px;
+        height: 400px;
+    }
+}
+@media only screen and (max-width: 320px){
+    .bordesredondeados{
+        border-radius: 20%;
+        border-style: dashed;
+        margin-top: 1em;
+        margin-bottom: 1em;
+    }
+}

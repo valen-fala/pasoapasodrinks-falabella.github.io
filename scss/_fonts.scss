@@ -1,0 +1,23 @@
+@media screen and (min-width: 1024px){
+    .font1{
+        font-family:'Oswald', sans-serif;
+        font-size: 75px;
+        animation:bounceInDown;
+        animation-duration: 2s;
+    }
+    .font2{
+        @extend .font1;
+        font-size: 40px;
+    }
+}
+@media only screen and (max-width: 320px){
+    .font3{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 35px;
+    }
+    .font4{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 22px;
+    }
+}
+
